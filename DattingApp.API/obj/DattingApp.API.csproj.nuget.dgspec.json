@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\heliojunior\\Documents\\dotNet\\AspNet\\AspNetCore_Angular\\DattingApp.API\\DattingApp.API.csproj": {}
+    "c:\\Users\\heliojunior\\Documents\\dotNet\\AspNet\\AspNetCore_Angular\\DattingApp.API\\DattingApp.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\heliojunior\\Documents\\dotNet\\AspNet\\AspNetCore_Angular\\DattingApp.API\\DattingApp.API.csproj": {
+    "c:\\Users\\heliojunior\\Documents\\dotNet\\AspNet\\AspNetCore_Angular\\DattingApp.API\\DattingApp.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\heliojunior\\Documents\\dotNet\\AspNet\\AspNetCore_Angular\\DattingApp.API\\DattingApp.API.csproj",
+        "projectUniqueName": "c:\\Users\\heliojunior\\Documents\\dotNet\\AspNet\\AspNetCore_Angular\\DattingApp.API\\DattingApp.API.csproj",
         "projectName": "DattingApp.API",
-        "projectPath": "C:\\Users\\heliojunior\\Documents\\dotNet\\AspNet\\AspNetCore_Angular\\DattingApp.API\\DattingApp.API.csproj",
+        "projectPath": "c:\\Users\\heliojunior\\Documents\\dotNet\\AspNet\\AspNetCore_Angular\\DattingApp.API\\DattingApp.API.csproj",
         "packagesPath": "C:\\Users\\heliojunior\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\heliojunior\\Documents\\dotNet\\AspNet\\AspNetCore_Angular\\DattingApp.API\\obj\\",
+        "outputPath": "c:\\Users\\heliojunior\\Documents\\dotNet\\AspNet\\AspNetCore_Angular\\DattingApp.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -41,6 +41,16 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
