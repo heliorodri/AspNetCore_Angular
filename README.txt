@@ -1,5 +1,7 @@
 # AspNetCore_Angular
 
+Helpful hints:
+
 - Creating Db Using EF Migrations
   .Add a connectionStrings section in the settings File;
   .Install Tool dotnet-ef
