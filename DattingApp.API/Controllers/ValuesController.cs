@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using DattingApp.API.Data;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace DatingApp.API.Controllers
 {
@@ -19,17 +20,17 @@ namespace DatingApp.API.Controllers
 
         // GET api/values
         [HttpGet]
-        public IActionResult GetValue()
+        public async Task<IActionResult> GetValue()
         {
-            var values = this._context.Values.ToList();
+            var values = await this._context.Values.ToListAsync();
             return Ok(values);
         }
 
         // GET api/values/5
         [HttpGet("{id}")]
-        public IActionResult GetValue(int id)
+        public async Task<IActionResult> GetValue(int id)
         {
-            var value = this._context.Values.FirstOrDefault(x => x.Id == id);
+            var value = await this._context.Values.FirstOrDefaultAsync(x => x.Id == id);
             return Ok(value);
         }
 
