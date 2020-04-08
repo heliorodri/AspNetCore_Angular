@@ -44,7 +44,7 @@ namespace DattingApp.API.Controllers
         [HttpPost("Login")]
         public async Task<IActionResult> Login(UserForLoginDto userForLoginDto)
         {
-            var userFromRepo = await _repo.Login(userForLoginDto.Username.ToLower(), userForLoginDto.Password);
+            var userFromRepo = await this._repo.Login(userForLoginDto.Username.ToLower(), userForLoginDto.Password);
 
             if (userFromRepo == null)
                 return Unauthorized();
@@ -56,12 +56,12 @@ namespace DattingApp.API.Controllers
             };
 
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(this._config.GetSection("AppSettings:Token").Value));
-            var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha512Signature);
+            var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256Signature);
 
             var tokenDescriptor = new SecurityTokenDescriptor
             {
                 Subject = new ClaimsIdentity(claims),
-                Expires = DateTime.Now.AddDays(1),
+                Expires = DateTime.UtcNow.AddDays(1),
                 SigningCredentials = creds
             };
 
