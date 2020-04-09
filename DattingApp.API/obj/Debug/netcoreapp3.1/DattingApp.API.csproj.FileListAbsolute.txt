@@ -1,5 +1,4 @@
 C:\Users\heliojunior\Documents\dotNet\AspNet\AspNetCore_Angular\DattingApp.API\bin\Debug\netcoreapp3.1\appsettings.Development.json
-C:\Users\heliojunior\Documents\dotNet\AspNet\AspNetCore_Angular\DattingApp.API\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\heliojunior\Documents\dotNet\AspNet\AspNetCore_Angular\DattingApp.API\bin\Debug\netcoreapp3.1\global.json
 C:\Users\heliojunior\Documents\dotNet\AspNet\AspNetCore_Angular\DattingApp.API\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Users\heliojunior\Documents\dotNet\AspNet\AspNetCore_Angular\DattingApp.API\bin\Debug\netcoreapp3.1\DattingApp.API.exe
