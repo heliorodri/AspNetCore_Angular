@@ -64,3 +64,4 @@ C:\Users\heliojunior\Documents\dotNet\AspNet\AspNetCore_Angular\DattingApp.API\b
 C:\Users\heliojunior\Documents\dotNet\AspNet\AspNetCore_Angular\DattingApp.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\heliojunior\Documents\dotNet\AspNet\AspNetCore_Angular\DattingApp.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
 C:\Users\heliojunior\Documents\dotNet\AspNet\AspNetCore_Angular\DattingApp.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\heliojunior\Documents\dotNet\AspNet\AspNetCore_Angular\DattingApp.API\bin\Debug\netcoreapp3.1\appsettings.json
