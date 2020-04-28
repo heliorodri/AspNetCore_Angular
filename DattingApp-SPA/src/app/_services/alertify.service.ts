@@ -29,7 +29,7 @@ constructor() { }
   }
 
   messsage(message: string) {
-    alertify.messsage(message);
+    alertify.message(message);
   }
 
 }
