@@ -7,13 +7,13 @@ import { AlertifyService } from '../_services/alertify.service';
   templateUrl: './nav.component.html',
   styleUrls: ['./nav.component.css']
 })
-export class NavComponent implements OnInit {
+export class NavComponent {
   model: any = {};
 
   constructor(public authService: AuthService, private alertify: AlertifyService) { }
 
-  ngOnInit() {
-  }
+  // ngOnInit() {
+  // }
 
   Login() {
     this.authService.login(this.model).subscribe(next => {

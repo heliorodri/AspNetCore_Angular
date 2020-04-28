@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "DattingApp-SPA": {
+    "dattingapp-spa": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/DattingApp-SPA",
+            "outputPath": "dist/dattingapp-spa",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -24,6 +24,8 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "./node_modules/ngx-bootstrap/datepicker/bs-datepicker.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -62,18 +64,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "DattingApp-SPA:build"
+            "browserTarget": "dattingapp-spa:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "DattingApp-SPA:build:production"
+              "browserTarget": "dattingapp-spa:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "DattingApp-SPA:build"
+            "browserTarget": "dattingapp-spa:build"
           }
         },
         "test": {
@@ -88,6 +90,8 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "./node_modules/ngx-bootstrap/datepicker/bs-datepicker.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -110,18 +114,18 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "DattingApp-SPA:serve"
+            "devServerTarget": "dattingapp-spa:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "DattingApp-SPA:serve:production"
+              "devServerTarget": "dattingapp-spa:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "DattingApp-SPA",
+  "defaultProject": "dattingapp-spa",
   "cli": {
     "analytics": "5d537cd4-b4b1-4334-bfb1-b8ae195a333f"
   }
