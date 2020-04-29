@@ -7,7 +7,9 @@ namespace DattingApp.API.Data
 {
     public class DattingRepository : IDattingRepository
     {
+        private const int V = 0;
         private readonly DataContext _context;
+        
         public DattingRepository(DataContext context)
         {
             this._context = context;
@@ -37,7 +39,7 @@ namespace DattingApp.API.Data
 
         public async Task<bool> SaveAll()
         {
-            return await this._context.SaveChangesAsync() > 0;
+            return await this._context.SaveChangesAsync() > V;
         }
     }
 }
