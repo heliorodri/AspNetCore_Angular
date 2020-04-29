@@ -66,3 +66,6 @@ C:\Users\heliojunior\Documents\dotNet\AspNet\AspNetCore_Angular\DattingApp.API\b
 C:\Users\heliojunior\Documents\dotNet\AspNet\AspNetCore_Angular\DattingApp.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
 C:\Users\heliojunior\Documents\dotNet\AspNet\AspNetCore_Angular\DattingApp.API\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\heliojunior\Documents\dotNet\AspNet\AspNetCore_Angular\DattingApp.API\bin\Debug\netcoreapp3.1\Data\UserSeedData.json
+C:\Users\heliojunior\Documents\dotNet\AspNet\AspNetCore_Angular\DattingApp.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\heliojunior\Documents\dotNet\AspNet\AspNetCore_Angular\DattingApp.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\heliojunior\Documents\dotNet\AspNet\AspNetCore_Angular\DattingApp.API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
