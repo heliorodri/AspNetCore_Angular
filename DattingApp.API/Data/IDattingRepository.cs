@@ -10,6 +10,6 @@ namespace DattingApp.API.Data
          void Delete<T>(T entity) where T: class;
          Task<bool> SaveAll();
          Task<IEnumerable<User>> GetUsers();
-         Task<User> GetUser();
+         Task<User> GetUser(int id);
     }
 }
