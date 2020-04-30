@@ -1,6 +1,2 @@
-.vscode
-bin
-obj
-*.db
-appsettings.json
-dattingapp.db
+DattingApp.API/obj/Debug/netcoreapp3.1/DattingApp.API.assets.cache
+DattingApp.API/obj/Debug/netcoreapp3.1/DattingApp.API.csprojAssemblyReference.cache
